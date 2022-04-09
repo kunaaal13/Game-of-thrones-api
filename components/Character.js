@@ -3,7 +3,7 @@ import React from 'react';
 function Character({ character }) {
   console.log(character.name);
   return (
-    <div className="max-w-sm ml-10 text-black rounded-md overflow-hidden my-5 shadow-lg bg-gray-100 hover:scale-125">
+    <div className="max-w-sm text-black rounded-md overflow-hidden my-5 shadow-lg bg-gray-100 hover:scale-125">
       <div className="w-full">
         <img
           className="object-cover w-full h-[250px] sm:h-[350px]"
